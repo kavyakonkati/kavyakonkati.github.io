@@ -1,0 +1,420 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet"
+	href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+	integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+	crossorigin="anonymous">
+
+<meta charset="utf-8">
+<title>Insert title here</title>
+</head>
+<style>
+ul {
+	list-style-type: none;
+	/*   margin: 0; */
+	/*   padding: 0; */
+	/*   overflow: hidden; */
+}
+
+li {
+	float: left;
+}
+
+.bg-white-light { -
+	-bg-opacity: 1;
+	background-color: rgba(255, 255, 255, var(- -bg-opacity));
+}
+
+li a {
+	display: block;
+	padding-right: 50px;
+	text-decoration: none;
+}
+
+.topnav-right {
+	float: right;
+}
+</style>
+<script>
+	$(document).ready(function() {
+
+		$("#businessIdMenu").click(function() {
+			$("#businessId").show();
+			$("#storiesId").hide();
+			$("#lifeId").hide();
+			$("#blogId").hide();
+			$("#coursesId").hide();
+			$("#dropshippingId").hide();
+			$("#loginId").hide();
+			$("#homeScr").hide();
+		})
+
+		$("#storiesIdMenu").click(function() {
+			$("#businessId").hide();
+			$("#storiesId").show();
+			$("#lifeId").hide();
+			$("#blogId").hide();
+			$("#coursesId").hide();
+			$("#dropshippingId").hide();
+			$("#loginId").hide();
+			$("#homeScr").hide();
+		})
+
+		$("#lifeIdMenu").click(function() {
+			$("#businessId").hide();
+			$("#storiesId").hide();
+			$("#lifeId").show();
+			$("#blogId").hide();
+			$("#coursesId").hide();
+			$("#dropshippingId").hide();
+			$("#loginId").hide();
+			$("#homeScr").hide();
+		})
+		$("#coursesIdMenu").click(function() {
+			$("#businessId").hide();
+			$("#storiesId").hide();
+			$("#lifeId").hide();
+			$("#blogId").hide();
+			$("#coursesId").show();
+			$("#dropshippingId").hide();
+			$("#loginId").hide();
+			$("#homeScr").hide();
+		})
+
+		$("#blogIdMenu").click(function() {
+			$("#businessId").hide();
+			$("#storiesId").hide();
+			$("#lifeId").hide();
+			$("#blogId").show();
+			$("#coursesId").hide();
+			$("#dropshippingId").hide();
+			$("#loginId").hide();
+			$("#homeScr").hide();
+		})
+
+		$("#dropshippingMenu").click(function() {
+			$("#businessId").hide();
+			$("#storiesId").hide();
+			$("#lifeId").hide();
+			$("#blogId").hide();
+			$("#coursesId").hide();
+			$("#dropshippingId").show();
+			$("#loginId").hide();
+			$("#homeScr").hide();
+		})
+		$("#homeScrMenu").click(function() {
+			$("#businessId").hide();
+			$("#storiesId").hide();
+			$("#lifeId").hide();
+			$("#blogId").hide();
+			$("#coursesId").hide();
+			$("#dropshippingId").hide();
+			$("#loginId").hide();
+			$("#homeScr").show();
+		})
+	})
+</script>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="60">
+	<div class="row">
+		<div class="col-sm-12">
+			<div class='bg-white-light'>
+
+
+				<nav class="navbar navbar-inverse">
+				<div class="container-fluid">
+					<div class="navbar-header"
+						style='color: blue; font-size: 25px; font-weight: bolder;padding-right: 5.2px;'>
+						OBERLO</div>
+<div class="collapse navbar-collapse" id="myNavbar">
+					<ul class="nav navbar-nav navbar-right" style='font-size: 16px;'>
+						<li id="homeScrMenu" class="active"><a href="#homeScr">Home</a></li>
+						<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Topics</a>
+							<ul class="dropdown-menu">
+								<li id="blogIdMenu"><a href="#blogId">Blog</a></li>
+								<li id="businessIdMenu"><a href="#businessId">Build
+										Your Business</a></li>
+								<li id="storiesIdMenu"><a href="#storiesId">Stories</a></li>
+								<li id="lifeIdMenu"><a href="#lifeId">Your Life</a></li>
+							</ul></li>
+						
+					<li id="coursesIdMenu"><a href="#coursesId">Courses</a></li>
+						<li id="dropshippingMenu"><a href="#dropshippingId">Dropshipping</a></li>
+						<!-- 						<li id="loginMenu"><a href="#loginId">Login</a></li> -->
+					</ul>
+				</div>
+				</nav>
+			</div>
+		</div>
+	</div>
+<!-- 	<div class="container"> -->
+	<div class="col-sm-12" style='padding: 2%;'>
+		<div id='homeScr' class="container-fluid" style='padding: 2%;'>
+			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+				<!-- Indicators -->
+				<ol class="carousel-indicators">
+					<li data-target="#myCarousel" data-slide-to="0"></li>
+					<li data-target="#myCarousel" data-slide-to="1"></li>
+					<li data-target="#myCarousel" data-slide-to="2"></li>
+					<li data-target="#myCarousel" data-slide-to="3"></li>
+				</ol>
+
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner">
+
+					<div class="item active">
+						<img
+							src="images\applicationServices.jpg"
+							alt="First Slide" style='height: 500px; width: 1500px'>
+						<div class="carousel-caption">
+							<h3>Los Angeles</h3>
+							<p>LA is always so much fun!</p>
+						</div>
+					</div>
+
+					<div class="item">
+						<img
+							src="images\library.jpg"
+							alt="Second Slide" style='height: 500px;'>
+						<div class="carousel-caption">
+
+					<h3>Chicago</h3>
+							<p>Thank you, Chicago!</p>
+						</div>
+					</div>
+					<div class="item">
+						<div>
+					<h3>Chicago</h3>
+					<p>From their historical beginnings as places to keep the
+								business, legal, historical, and religious records of a
+								civilization, libraries have emerged since the middle of the
+								20th century as a far-reaching body of information resources and
+								services that do not even require a building. Rapid developments
+								in computers, telecommunications, and other technologies have
+								made it possible to store and retrieve information in many
+								different forms and from any place with a computer and a
+								telephone connection. The terms digital library and virtual
+								library have begun to be used to refer to the vast collections
+								of information to which people gain access over the Internet,
+								cable television, or some other type of remote electronic
+								connection. This article provides a history of libraries from
+								their founding in the ancient world through the latter half of
+								the 20th century, when both technological and political force
+								business, legal, historical, and religious records of a
+								civilization, libraries have emerged since the middle of the
+								20th century as a far-reaching body of information resources and
+								services that do not even require a building. Rapid developments
+								in computers, telecommunications, and other technologies have
+								made it possible to store and retrieve information in many
+								different forms and from any place with a computer and a
+								telephone connection. The terms digital library and virtual
+								library have begun to be used to refer to the vast collections
+								of information to which people gain access over the Internet,
+								cable television, or some other type of remote electronic
+								connection. This article provides a history of libraries from
+								their founding in the ancient world through the latter half of
+								the 20th century, when both technological and political force
+								business, legal, historical, and religious records of a
+								civilization, libraries have emerged since the middle of the
+								20th century as a far-reaching body of information resources and
+								services that do not even require a building. Rapid developments
+								in computers, telecommunications, and other technologies have
+								made it possible to store and retrieve information in many
+								different forms and from any place with a computer and a
+								telephone connection. The terms digital library and virtual
+								library have begun to be used to refer to the vast collections
+								of information to which people gain access over the Internet,
+								cable television, or some other type of remote electronic
+								connection. This article provides a history of libraries from
+								their founding in the ancient world through the latter half of
+								the 20th century, when both technological and political force
+								business, legal, historical, and religious records of a
+								civilization, libraries have emerged since the middle of the
+								20th century as a far-reaching body of information resources and
+								services that do not even require a building. Rapid developments
+								in computers, telecommunications, and other technologies have
+								made it possible to store and retrieve information in many
+								different forms and from any place with a computer and a
+								telephone connection. The terms digital library and virtual
+								library have begun to be used to refer to the vast collections
+								of information to which people gain access over the Internet,
+								cable television, or some other type of remote electronic
+								connection. This article provides a history of libraries from
+								their founding in the ancient world through the latter half of
+								the 20th century, when both technological and political force
+						</p>
+						</div>
+					</div>
+
+					<!-- Left and right controls -->
+					<a class="left carousel-control" href="#myCarousel"
+						data-slide="prev"> <span
+						class="glyphicon glyphicon-chevron-left"></span> <span
+						class="sr-only">Previous</span>
+					</a> <a class="right carousel-control" href="#myCarousel"
+						data-slide="next"> <span
+						class="glyphicon glyphicon-chevron-right"></span> <span
+						class="sr-only">Next</span>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div id='businessId' class="container-fluid" style='display: none'>
+			<div class="col-sm-5">
+				<h1 style='color: blue;'>BUILD YOUR BUSINESS</h1>
+				<h3 style='color: blue;'>Article</h3>
+				<h2>How to Get Followers on Instagram: From 0 to 10k Followers</h2>
+				<br /> When you are just starting an online business, it can be
+				exciting to imagine how you can successfully sell your product ...<br>
+				by Nicole Martins Ferreira
+
+			</div>
+			
+			<div class="col-sm-7">
+				<img
+					src="images\secure.jpg"
+					style='height: 350px; padding-top: 4%; padding-left: 14%;'>
+			</div>
+		<div class='row'>
+				<div class="col-sm-4">					
+					<h3 style='color: blue;'>Article</h3>
+					The definite article is the word the. It limits the meaning of a noun to one particular thing. For example,
+					 your friend might ask,Are you going to the party this weekend?The definite article tells you 
+					 that your friend is referring to a specific party that both of you know about. The definite article can be used with singular,
+					 plural, or uncountable nouns. Below are some examples of the definite article the used in context
+	
+				</div>
+				<div class="col-sm-4">					
+					<h3 style='color: blue;'>Article</h3>
+					The indefinite article takes two forms. It is the word a when it precedes a word that begins with a consonant.
+					 Its the word an when it precedes a word that begins with a vowel. 
+					 The indefinite article indicates that a noun refers to a general idea rather than a particular thing.
+					  For example, you might ask your friend, Should I bring a gift to the party?
+					   Your 
+				</div>
+				<div class="col-sm-4">					
+					<h3 style='color: blue;'>Article</h3>
+					There are a few exceptions to the general rule of using a before words that start with consonants and an before words that begin with vowels.
+					 The first letter of the word honor, for example, is a consonant, but it is unpronounced. In spite of its spelling, 
+					the word honor begins with a vowel sound. Therefore, we use an. Consider the example sentence below for an illustration of this concept.
+	
+				</div>
+			</div>
+		</div>
+		<div id='storiesId' class="container-fluid" style='display: none'>
+			<div class="col-sm-6">
+				<img
+					src="images\enterpreneur.jpg"
+					style='height: 350px; padding-top: 3%; padding-left: 10%;'>
+			</div>
+			<div class="col-sm-6">
+				<h1 style='color: blue;'>STORIES</h1>
+				<h3 style='color: blue;'>Article</h3>
+				<h2>How I Built a Dropshipping Store That Made 6667 in Under 8
+					Weeks</h2>
+				<br /> Shoot for the moon. Even if you miss, you will land among
+				the stars - Les Brown I believe that everybody has the pot... <br>
+				by Tim Kock
+			</div>
+			<br>
+			<br>
+
+		<div style='padding-top : 22%;'>
+				<div 
+					style='padding: 2%;height: 180px; width: 100%; background-color: rgba(27, 109, 133, 1)'>
+					<h1 style='text-align: center'>What Am I?</h1>
+					<p style='text-align: center'>Lorem ipsum dolor sit amet,
+						consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+						labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+						nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat.Zoom Phone provides local telephony service across 40+ countries,
+						allowing businesses to consolidate phone system requirements on a single, unified platform.</p>
+
+				</div>
+			</div>
+		</div>
+
+		<div id='blogId' class="container-fluid" style='display: none'>
+			<h1 style='color: blue;'>ARTICLES</h1>
+			<h3 style='color: rgba(221, 221, 221, 1);'>NEW ARTICLE</h3>
+			<h2>How I Built a Dropshipping Store That Made 6667 in Under 8
+				Weeks</h2>
+			<br /> Shoot for the moon. Even if you miss, you will land among the
+			stars - Les Brown 
+by Tim Kock<br />
+			<h2>Latest</h2>
+			<div class='row'></div>
+			<div class="col-sm-3" style='padding-top: 1%; padding-left: 0%;'>
+				<img
+					src="images\stairsSuccess.jpg"
+					style='height: 260px; width: 400px;'>
+
+			</div>
+			<div class="col-sm-3" style='padding-top: 1%; margin-left: 3%;'>
+				<img
+					src="images\bigstock.jpg"
+					style='height: 260px; width: 400px;'>
+
+			</div>
+	<div class="col-sm-3" style='padding-top: 1%; padding-left: 5%;'>
+				<img
+					src="images\richestenter.jpg"
+					style='height: 260px; width: 400px;'>
+
+			</div>
+		</div>
+
+		<div id='lifeId' class="container-fluid" style='display: none'>
+			<h1 style='color: blue;'>YOUR LIFE</h1>
+			<h3 style='color: blue;'>Article</h3>
+			<h2>21 Passive Income Ideas to Build Wealth In 2021</h2>
+			<br /> You have got a steady paycheck from your 9 to 5 job and that
+			is cool. But deep down inside you know you have always wanted <br>
+			by Nicole Martins Ferreira
+<div style='padding-top: 1%;'>
+				<img
+					src="images\stock.jpg"
+					style='height: 300px;'>
+			</div>
+		</div>
+		<div class="row justify-content-center">
+			<div id='coursesId' class="container-fluid" style='display: none'>
+				<h1
+					style='text-align: center; color: blue; font-size: 75px; font-weight: 800; padding-top: 10%;'>
+					LEVEL UP <i class="fas fa-brain"></i>
+				</h1>
+				<h1
+					style='text-align: center; color: blue; font-size: 75px; font-weight: 800;'>
+					LEARNING</h1>
+	<p style='text-align: center; font-size: 20px;'>No MBA? No
+					problem. Do not know a thing about business? Perfect. Level Up is
+					like business school, except faster, and with no debt.</p>
+			</div>
+
+			<div id='dropshippingId' class="container-fluid" style='display: none'>
+				<h1
+					style='text-align: center; color: blue; font-size: 75px; font-weight: 800; padding-top: 10%;'>THIS
+					IS BUSINESS</h1>
+				<h1
+					style='text-align: center; color: blue; font-size: 75px; font-weight: 800;'>
+					UNUSUAL</h1>
+				<p style='text-align: center; font-size: 20px;'>Learn the
+					dropshipping ropes and get your business ideas off the ground in
+					just a few clicks, with Oberlo.</p>
+			</div>
+
+		</div>
+	</div>
+</body>
+</html>
+
+
