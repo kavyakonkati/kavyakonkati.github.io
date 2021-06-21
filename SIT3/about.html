@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>SunSoft IT Solutions</title>
+<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+<meta name="description" content="" />
+<meta name="author" content="http://webthemez.com" />
+<!-- css --> 
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="materialize/css/materialize.min.css" media="screen,projection" />
+<link href="css/bootstrap.min.css" rel="stylesheet" />
+<link href="css/fancybox/jquery.fancybox.css" rel="stylesheet"> 
+<link href="css/flexslider.css" rel="stylesheet" /> 
+<link href="css/style.css" rel="stylesheet" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+<script>
+$(document).on('click', '.panel-heading span.clickable', function(e){
+    var $this = $(this);
+	if(!$this.hasClass('panel-collapsed')) {
+    	$this.parents('.panel').find('.panel-body').slideUp();
+		$this.addClass('panel-collapsed');
+		$this.find('i').removeClass('glyphicon glyphicon-minus').addClass('glyphicon glyphicon-plus');
+	} else {
+		$this.parents('.panel').find('.panel-body').slideDown();
+		$this.removeClass('panel-collapsed');
+		$this.find('i').removeClass('glyphicon glyphicon-plus').addClass('glyphicon glyphicon-minus');
+	}
+})
+</script>
+</head>
+<body>
+<div id="wrapper"> 
+	<header class="topbar">
+		<div class="container">
+			<div class="row">
+				<!-- social icon-->
+				<div class="col-sm-3">
+				   <ul class="social-network">
+					<li><a class="waves-effect waves-dark" href="#"><i class="fa fa-facebook"></i></a></li>
+					<li><a class="waves-effect waves-dark" href="#"><i class="fa fa-twitter"></i></a></li>
+					<li><a class="waves-effect waves-dark" href="#"><i class="fa fa-linkedin"></i></a></li>
+				</ul>
+				</div>
+				<div class="col-sm-9">
+					<div class="row">
+						<ul class="info"> 
+							<li><i class="icon-info-blocks material-icons">question_answer</i><span>hr@sunsoftitsolutions.com</span></li>
+							<li><i class="icon-info-blocks material-icons">perm_phone_msg</i><span>+(012) 345 6789</span></li>
+						</ul>
+						<div class="clr"></div>
+					</div>
+				</div>
+				<!-- info -->
+
+			</div>
+		</div>
+	</header>
+
+	<!-- start header -->
+		<header>
+        <div class="navbar navbar-default navbar-static-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                  <a class="navbar-brand" href="index.html"><img src="img/icons/logo3.jpg" style="margin-top: -13%; height: 45px;"></a>
+                </div>
+                <div class="navbar-collapse collapse ">
+                    <ul class="nav navbar-nav">
+                        <li><a class="waves-effect waves-dark" href="index.html">Home</a></li> 
+                        <li class="active"><a class="waves-effect waves-dark" href="about.html">About Us</a></li>
+						<li><a class="waves-effect waves-dark" href="services.html">Services</a></li>
+						<li class="dropdown"> 
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle waves-effect waves-dark">Careers<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a class="waves-effect waves-dark" href="submitResume.html">Submit Resume</a></li>
+                        </ul>
+                     </li>
+                        <li><a class="waves-effect waves-dark" href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+	</header>
+	<section id="inner-headline" class="banner home">
+		<img src="img/aboutUs/aboutUs.jpg" alt="" style="width:100%;"/>
+		<div id="aboutUsTitle" style="position:absolute; top:30%; width:-webkit-fill-available; background:border-box; opacity: 0.5;">
+			<h2 style="color:black;background:white;height: 150px;text-align: center;padding-top: 3%;">Your human talent is your most <br> important talent</h2>	
+		</div>
+	</section>
+	<section>
+	<div class="container">
+	<div style="text-align:center;">
+<!-- 	<h2 class="titleNameColor"><span class="titleInitLetter">A</span>bout <span class="titleInitLetter">U</span>s</h2> -->
+	<h3 style="text-align:center; color: #582525; font-weight: 600;">ABOUT US</h3>
+	</div>
+<!-- 	<div class="row">  -->
+<!-- 			<div class="about-logo"> -->
+<!-- 				<p style="margin-left: 16px;"> -->
+<!-- 				 Staffing is a permanent and continuous process of finding, evaluating and developing a working relationship between the organizations and employees. Sunsoft makes this <br/> -->
+<!-- 				 process easy by acting as a middleman between the workers and employers, helping to match the qualified candidates to the requirements of companies..... We connect all <br/> -->
+<!-- 				 part-time, full-time and contractual talent quickly and efficiently. We always aim to get you manforce who can bring value to your organizations. We clearly understand that<br/>  -->
+<!-- 				 each resource is crucial, so we will apply unique and different methodologies based on our client's key requirements like position, technologies and the type of person they <br/>  -->
+<!-- 				 want in our hiring process. We act like extension of your organizations. </p> -->
+<!-- 			</div>   -->
+<!-- 	</div> -->
+	</div>
+	</section>
+<!-- 	<section id="processesHeadline" class="banner home"> -->
+<!-- 		<div class="container"> -->
+<!-- 		<div style="text-align:center;"> -->
+<!-- 		Our Process -->
+<!-- 		</div> -->
+<!-- 		<div class="row"> -->
+<!-- 		<div class="col-md-3"> -->
+<!-- 			<img src="img/aboutUs/findStaff1.jpg" alt="" style="width:100%;"/> -->
+<!-- 		</div> -->
+<!-- 		<div class="col-md-3"> -->
+<!-- 			<img src="img/aboutUs/recruiting.jpg" alt="" style="width:100%;"/> -->
+<!-- 		</div> -->
+<!-- 		<div class="col-md-3"> -->
+<!-- 			<img src="img/aboutUs/trainingPeople.jpg" alt="" style="width:100%;"/> -->
+<!-- 		</div> -->
+<!-- 		<div class="col-md-3"> -->
+<!-- 			<img src="img/aboutUs/connectPeople.jpg" alt="" style="width:100%;"/> -->
+<!-- 		</div> -->
+<!-- 		</div> -->
+<!-- 		</div> -->
+<!-- 	</section> -->
+	<section id="content" style="margin-bottom: -2%;">
+	<section class="section-padding">
+		<div class="container">
+			<div class="row showcase-section">
+				<div class="col-md-6" style="margin-top:2%;">
+					<div class="about-text">
+						<h3 style="padding-bottom:10px!important; ">Our <span style="color:#7ea243;">Company:</span></h3>
+						<p>Sunsoft IT Solutions is based out in Florida, US and offers specialized services <br/>in IT Software Consulting Services. We provide innovative, effective workforce <br/>solutions in connecting human potential to the power of business. Sunsoft IT <br>Solutions serves all types of organizations, both small and large across various <br>sectors through our brands and offerings with Workforce and Talent positioning. <br>As a IT Consulting and Talent Acquisition company, its our passion to know the <br>business goals,requirements deeply and connect you with the right people who <br>work not only to fulfill your requirements but also work effortlessly to make your <br>goals to reality.</p>
+					</div>
+				</div>
+				<div class="col-md-6" style="padding-top:1%;">
+					<img src="img/q1111.jpg" alt="showcase image">
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="section-padding">
+		<div class="container">
+			<div class="row showcase-section">
+				<div class="col-md-6" style="padding-top:1%;">
+					<img src="img/q22.jpg" alt="showcase image" style="width: 100%;">
+				</div>
+				<div class="col-md-6" style="margin-top:2%;">
+					<div class="about-text">
+						<h3 style="padding-bottom:10px!important;">Our <span style="color:#7ea243;">Philosophy:</span></h3>
+						<p><b>You Ask Us And We Provide The Same</b> is the prime motto of ours. <b>We Are <br>Passion Driven.</b> We ensure both employee and organizations requirements <br>to be fulfilled. We continuously strive to create a positive environment for our <br>employees with our work culture and supporting each employees work styles <br>ensuring their career and organizations growth. As we are IT expertise, We <br>clearly understand what an organization requires and connects them with the <br>same professional.
+						We strongly believe that with Right People Everything Is <br>Possible.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<div class="container">
+		<div class="about">
+			<div class="row">
+				<div class="col-md-4">
+					<!-- Heading and para -->
+					<div class="block-heading-two">
+						<h3><span>Why Choose <span style="color:#7ea243;">Us?</span></span></h3>
+					</div>
+					<p>As Sunsoft is an emerging IT Consulting Organization, we understand the rapid changes in the market and connects to employees/organizations who can improve the growth and productivity of the company and employee satisfaction. <br/> <br/> We follow <b>Try and then Hire</b> policy, where the organizations can hire employees on contractual basis and then make them permanent based on their performance which imbides confidence in organizations.</p>
+				</div>
+				<div class="col-md-4">
+					<div class="block-heading-two">
+						<h3><span>Our <span style="color:#7ea243;">Values</span></span></h3>
+					</div>
+					<p><b>Sunsoft</b> is a Value Based Company, as we keep our values first and everything else is secondary for us. <br/> <br/>The five core values of our company are Accountability, Excellence, Growth, Integrity and Transparency 2 Professionalism. With our values, we ensure we are accountable for what we do by bringing the best in our employees. We will have development plans to nurture the employees skill set to help them grow professionally. </p>
+				</div>
+				<div class="col-md-4">
+					<div class="block-heading-two">
+						<h3><span>Our <span style="color:#7ea243;">Vision</span></span></h3>
+					</div>
+					<p>Our vision is to emerge not only as a best Consulting organization but also wanted to be a trusted partner for both our employees and clients.
+					<br/> <br/>   We believe that - <b>Great People With Great Vision Are Relevant.</b> We believe in people and want to create strong communities for them to live in and use their expertise that help organizations grow. When we match people we concentrate on Employees, Employers and Excellence.</p>
+				</div>
+				</div>
+				</div>
+				</div>
+				</section>
+				<section style="color: #1b1b1b; margin-bottom: -3%;">
+				<div class="container">
+				<div class="row">
+					<div class="block-heading-two">
+					<h3 style  ='text-align : center; font-size : 30px' > Our Features<span style="color:#7ea243;"> &&</span> What We Provide</h3>
+					</div>
+					<div class='row'>
+						<div class="container">
+						
+						
+			<div class="row" style='margin-bottom : 0px'>
+			<div class="panel panel-info">
+				<div class="panel-heading">
+					<h3 class="panel-title"><span class="clickable"><i class="glyphicon glyphicon-minus"></i></span> Staffing Approaches</h3>
+					<!-- <span class="pull-right clickable"><i class="glyphicon glyphicon-plus" style='top: -13px'></i></span> -->
+				</div>
+				<div class="panel-body">
+				<p>We follow best consulting metrics to place right people for
+									right job to improve the business productivity and employee
+									satisfaction</p>
+								<ul>
+									<li>Our basic metric is <b>We provide
+											exactly what we have been asked for</b> with deep understanding
+										of customer and business requirements based on data driven
+										approach.
+									</li>
+									<li>We understand right people with commitment, team
+										working and professional behavior are necessary.</li>
+									<li>We keep in mind about the costs associated with the
+										recruitment and hiring.</li>
+								</ul>
+				</div>
+			</div>
+			<div class="panel panel-info">
+				<div class="panel-heading">
+					<h3 class="panel-title"><span class="clickable"><i class="glyphicon glyphicon-minus"></i></span> Strategy Based Solutions</h3>
+					<!-- <span class="pull-right clickable"><i class="glyphicon glyphicon-plus" style='top: -13px'></i></span> -->
+				</div>
+				<div class="panel-body">
+				<p>Though connecting right people is always the goal,
+									strategy based solutions will always give best matches for
+									organizations and employees, resulting in higher productivity.</p>
+								<ul>
+									<li>  Using the updated job description we hire a
+										Multi-skilled who suits best for the role.</li>
+									<li>  We hire flexible resources so that they can fit in a
+										rapidly changing market.</li>
+									<li>  Based on our recruiting strategies, we concentrate on
+										employees who can change their role quickly for Multi-skilled
+										job descriptions.</li>
+									<li>  As part of constant learning we will have development
+										plans to train and get best out of each employee.</li>
+
+								</ul>
+				</div>
+		</div>
+			<div class="panel panel-info">
+				<div class="panel-heading">
+					<h3 class="panel-title"><span class="clickable"><i class="glyphicon glyphicon-minus"></i></span> Our Continuous Support</h3>
+					<!-- <span class="pull-right clickable"><i class="glyphicon glyphicon-plus" style='top: -13px'></i></span> -->
+				</div>
+				<div class="panel-body">We will provide our continuous support to employees and organization by real time tracking and reporting performances 
+				which inspires the transparency and confidence for organizations and employees. And corrective actions will be taken.</div>
+			</div>
+			</div>
+</div>
+					</div>
+					</div>
+					</div>
+					
+						<br>
+					
+	</section>
+	<footer>
+	<div class="container" style="padding-top:2%;">
+		<div class="row">
+			<div class="col-sm-4">
+				<div class="widget">
+					<h5 class="widgetheading" >SunSoft IT Solutions</h5>
+					<p>Sunsoft IT solutions, is a new launch by working <br/>
+					professionals, having real-time<br/>
+					industrial experience. We are expertise in <br/>
+					understanding the business requirements and <br/>
+					connects with the best people from the industry. <br/>
+					We believe that with the collaboration of right <br/>
+					people right things starts to happen.</p>
+				</div>
+			</div>
+			<div class="col-sm-4" style="text-align:center;">
+				<div class="widget">
+					<h5 class="widgetheading">Quick Links</h5>
+					<ul class="link-list">
+						<li><a class="waves-effect waves-dark" href="index.html">Home</a></li>
+						<li><a class="waves-effect waves-dark" href="about.html">About Us</a></li>
+						<li><a class="waves-effect waves-dark" href="services.html">Services</a></li>
+						<li><a class="waves-effect waves-dark" href="resume.html">Submit Resume</a></li>
+						<li><a class="waves-effect waves-dark" href="contact.html">Contact us</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-sm-4" style="text-align:center;">
+					<div class="widget">
+					<h5 class="widgetheading">Contact Us</h5>
+					<address>
+					<strong>Sunsoft It Solutions,</strong><br/>
+					IT & Professional Consulting Services<br/>
+					1504, International PKWY STE 2000,<br/>
+					Lake Mary, FL 32746,<br/>
+					Florida, US.<br/></address>
+					<b>Email:</b> hr@sunsoftitsolutions.com
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="sub-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-9">
+					<div class="copyright">
+						<p style="text-align:center;">
+						Sunsoft IT Solutions Pvt. Ltd. Copyright © 2021. All rights reserved 
+						</p>
+					</div>
+				</div>
+				<div class="col-lg-3" style="text-align:center;">
+					<ul class="social-network">
+						<li><a class="waves-effect waves-dark" href="#" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+						<li><a class="waves-effect waves-dark" href="#" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+						<li><a class="waves-effect waves-dark" href="#" data-placement="top" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+<!-- 						<li><a class="waves-effect waves-dark" href="#" data-placement="top" title="Pinterest"><i class="fa fa-pinterest"></i></a></li> -->
+<!-- 						<li><a class="waves-effect waves-dark" href="#" data-placement="top" title="Google plus"><i class="fa fa-google-plus"></i></a></li> -->
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	</footer>
+</div>
+<a href="#" class="scrollup waves-effect waves-dark"><i class="fa fa-angle-up active"></i></a>
+<!-- javascript
+    ================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="js/jquery.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="materialize/js/materialize.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.fancybox.pack.js"></script>
+<script src="js/jquery.fancybox-media.js"></script>  
+<script src="js/jquery.flexslider.js"></script>
+<script src="js/animate.js"></script>
+<!-- Vendor Scripts -->
+<script src="js/modernizr.custom.js"></script>
+<script src="js/jquery.isotope.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/animate.js"></script> 
+<script src="js/custom.js"></script>
+</body>
+</html>
