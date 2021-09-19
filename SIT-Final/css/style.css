@@ -3918,8 +3918,16 @@ textarea.materialize-textarea {
 	color:#fff;
 }
 
+.disclosureListType{
+	 list-style-type: disc!important; 
+	 margin-left: 45px;
+}
 
 
+.discListType{
+	 list-style-type: disclosure-closed!important; 
+	 margin-left: 45px;
+}
 
 
 
